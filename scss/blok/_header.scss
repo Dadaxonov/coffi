@@ -1,14 +1,103 @@
-.site-header__container{
+.site-header_navigatsiya{
+    position:absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    width: 1110px;
+    height: 48px;
+    left: 165px;
+    top: 73px;
 }
 
 .site-header__items{
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.blok2{
+    display: flex;
+    margin-left: 60px;
 }
 
 .site-header__item{
-    margin-right: 30px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+
+.site-header{
+    background-color: #014E56;
+}
+
+.site-header__logo{
+    color: white;
+    
+}
+.blok1 li{font-size: 40px;}
+
+
+.site-header__find{
+    position: absolute;
+    display: flex;
+    width: 1110px;
+    height: 200px;
+    left: 165px;
+    top: 250px;
+
+    
+}
+.find-left::after{
+    content : "";
+    height : 200px;
+    width : 200px;
+    display :block;
+    background-repeat : no-repeat;
+    background-image : url(../../images/group8.svg);
+    margin-left: -250px;z-index: 2;
+
+}
+
+.find-left{
+    position: absolute;
+    width: 635px;
+    height: 200px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.find-right{
+    position: absolute;
+    width: 445px;
+    height: 195px;
+    left: 650px;
+    top: 0;
+}
+
+.find-right p{
+    position: absolute;
+    height: 112px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 112px/2 + 41.5px);
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.talent{
+    color: #f67e7e;
+}
+
+.contact{
+    color: #FFFFFF;
 }
