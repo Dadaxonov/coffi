@@ -48,17 +48,7 @@
     top: 250px;
 
     
-}
-.find-left::after{
-    content : "";
-    height : 200px;
-    width : 200px;
-    display :block;
-    background-repeat : no-repeat;
-    background-image : url(../../images/group8.svg);
-    margin-left: -250px;z-index: 2;
-
-}
+} 
 
 .find-left{
     position: absolute;
@@ -71,6 +61,18 @@
     line-height: 100px;
     color: #FFFFFF;
 }
+.find-left::before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/heder1.svg);
+    margin-left: -165px;
+  }
+
+
 
 .find-right{
     position: absolute;
@@ -79,6 +81,16 @@
     left: 650px;
     top: 0;
 }
+.find-right::after{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 358px;
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/heder2.svg);
+    display: block;
+  }
+
 
 .find-right p{
     position: absolute;
