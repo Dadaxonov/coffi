@@ -1,0 +1,88 @@
+.result{
+    background-color: #004047;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result__lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result__title{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 140px;
+    width: 932px;
+    height: 96px;
+}
+
+.success{
+    color: #79C8C7;
+}
+
+.result__list {
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/“.svg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 92px;
+    margin-right: 30px;
+}
+
+.result__list p{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.result__list div{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.info h5{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    height: 28px;
+}
+
+.info p{
+    font-family: 'Livvic';
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 18px;
+}
+
+.info p::after{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/Oval@2x.svg);
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    display: block;
+    margin-top: 32px;
+    margin-left: 50px;
+}

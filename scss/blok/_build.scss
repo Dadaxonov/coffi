@@ -1,0 +1,81 @@
+.build{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #012F34;
+    width: 1440px;
+    height: 684px;
+}
+
+.build__title{
+    width: 445px;
+    height: 144px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-left: 165px;
+    color: #FFFFFF;
+    margin-top: -150px;
+}
+
+
+.build__list h5{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+    margin-bottom: 16px;
+}
+.build__list p{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.build__list li{
+    margin-top: 32px;
+    width: 540px;
+    height: 94px;
+    margin-right: 165px;
+}
+
+
+.build__list li::before{
+    content: "";
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/secsion1img1.svg);
+    margin-left: -100px;
+}
+
+
+.section1{
+    position: absolute;
+    margin-top: -54px;
+    background-color:  #F67E7E;
+}
+
+.for-after::after{
+    content: "";
+    position: absolute;
+    height: 244px;
+    width: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/Group8.svg);
+    right: 0;
+    margin-top: -67px;
+
+}
