@@ -5,6 +5,29 @@
     flex-direction: column;
 }
 
+.result::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/Group8Copy.svg);
+    width: 147px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+}
+
+.result::after{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/Group83.svg);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    bottom: 0;
+}
+
 .result__lists{
     display: flex;
     align-items: center;
@@ -29,14 +52,23 @@
 }
 
 .result__list {
-    background-repeat: no-repeat;
-    background-image: url(../coffi/images/“.svg);
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 350px;
     margin-top: 92px;
     margin-right: 30px;
+}
+
+.result__list::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../coffi/images/“.svg);
+    width: 67px;
+    height: 56px;
+    position: absolute;
+    display: inline-block;
+    top: 292px;
 }
 
 .result__list p{
@@ -47,6 +79,7 @@
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+    z-index:0;
 }
 
 .result__list div{
